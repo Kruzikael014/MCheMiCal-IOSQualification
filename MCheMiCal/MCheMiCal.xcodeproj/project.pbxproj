@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B731F712A000D4F00182B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B731F702A000D4F00182B2A /* AppDelegate.swift */; };
+		4B731F732A000D4F00182B2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B731F722A000D4F00182B2A /* SceneDelegate.swift */; };
+		4B731F752A000D4F00182B2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B731F742A000D4F00182B2A /* ViewController.swift */; };
+		4B731F782A000D4F00182B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B731F762A000D4F00182B2A /* Main.storyboard */; };
+		4B731F7B2A000D4F00182B2A /* MCheMiCal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B731F792A000D4F00182B2A /* MCheMiCal.xcdatamodeld */; };
+		4B731F7D2A000D5000182B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B731F7C2A000D5000182B2A /* Assets.xcassets */; };
+		4B731F802A000D5000182B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B731F7E2A000D5000182B2A /* LaunchScreen.storyboard */; };
+		4B731F892A000F4800182B2A /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B731F882A000F4800182B2A /* RegisterController.swift */; };
+		4B731F8C2A00178B00182B2A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B731F8B2A00178B00182B2A /* Utility.swift */; };
+		4B731F8E2A001B5100182B2A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B731F8D2A001B5100182B2A /* HomeController.swift */; };
+		4B731F902A00305500182B2A /* InsertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B731F8F2A00305500182B2A /* InsertController.swift */; };
+		4B731F922A00314700182B2A /* UpdateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B731F912A00314700182B2A /* UpdateController.swift */; };
+		4B731F942A00399900182B2A /* MiCheMiCalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B731F932A00399900182B2A /* MiCheMiCalTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B731F6D2A000D4F00182B2A /* MCheMiCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCheMiCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B731F702A000D4F00182B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B731F722A000D4F00182B2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4B731F742A000D4F00182B2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B731F772A000D4F00182B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B731F7A2A000D4F00182B2A /* MCheMiCal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MCheMiCal.xcdatamodel; sourceTree = "<group>"; };
+		4B731F7C2A000D5000182B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B731F7F2A000D5000182B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B731F812A000D5000182B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B731F882A000F4800182B2A /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		4B731F8B2A00178B00182B2A /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		4B731F8D2A001B5100182B2A /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		4B731F8F2A00305500182B2A /* InsertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertController.swift; sourceTree = "<group>"; };
+		4B731F912A00314700182B2A /* UpdateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateController.swift; sourceTree = "<group>"; };
+		4B731F932A00399900182B2A /* MiCheMiCalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCheMiCalTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B731F6A2A000D4F00182B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B731F642A000D4F00182B2A = {
+			isa = PBXGroup;
+			children = (
+				4B731F6F2A000D4F00182B2A /* MCheMiCal */,
+				4B731F6E2A000D4F00182B2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B731F6E2A000D4F00182B2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B731F6D2A000D4F00182B2A /* MCheMiCal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B731F6F2A000D4F00182B2A /* MCheMiCal */ = {
+			isa = PBXGroup;
+			children = (
+				4B731F8A2A00176900182B2A /* Other */,
+				4B731F872A000DE500182B2A /* ViewControllers */,
+				4B731F702A000D4F00182B2A /* AppDelegate.swift */,
+				4B731F722A000D4F00182B2A /* SceneDelegate.swift */,
+				4B731F742A000D4F00182B2A /* ViewController.swift */,
+				4B731F762A000D4F00182B2A /* Main.storyboard */,
+				4B731F7C2A000D5000182B2A /* Assets.xcassets */,
+				4B731F7E2A000D5000182B2A /* LaunchScreen.storyboard */,
+				4B731F812A000D5000182B2A /* Info.plist */,
+				4B731F792A000D4F00182B2A /* MCheMiCal.xcdatamodeld */,
+			);
+			path = MCheMiCal;
+			sourceTree = "<group>";
+		};
+		4B731F872A000DE500182B2A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B731F882A000F4800182B2A /* RegisterController.swift */,
+				4B731F8D2A001B5100182B2A /* HomeController.swift */,
+				4B731F8F2A00305500182B2A /* InsertController.swift */,
+				4B731F912A00314700182B2A /* UpdateController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4B731F8A2A00176900182B2A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4B731F8B2A00178B00182B2A /* Utility.swift */,
+				4B731F932A00399900182B2A /* MiCheMiCalTableViewCell.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B731F6C2A000D4F00182B2A /* MCheMiCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B731F842A000D5000182B2A /* Build configuration list for PBXNativeTarget "MCheMiCal" */;
+			buildPhases = (
+				4B731F692A000D4F00182B2A /* Sources */,
+				4B731F6A2A000D4F00182B2A /* Frameworks */,
+				4B731F6B2A000D4F00182B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCheMiCal;
+			productName = MCheMiCal;
+			productReference = 4B731F6D2A000D4F00182B2A /* MCheMiCal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B731F652A000D4F00182B2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4B731F6C2A000D4F00182B2A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4B731F682A000D4F00182B2A /* Build configuration list for PBXProject "MCheMiCal" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B731F642A000D4F00182B2A;
+			productRefGroup = 4B731F6E2A000D4F00182B2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B731F6C2A000D4F00182B2A /* MCheMiCal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B731F6B2A000D4F00182B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B731F802A000D5000182B2A /* LaunchScreen.storyboard in Resources */,
+				4B731F7D2A000D5000182B2A /* Assets.xcassets in Resources */,
+				4B731F782A000D4F00182B2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B731F692A000D4F00182B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B731F892A000F4800182B2A /* RegisterController.swift in Sources */,
+				4B731F752A000D4F00182B2A /* ViewController.swift in Sources */,
+				4B731F902A00305500182B2A /* InsertController.swift in Sources */,
+				4B731F8E2A001B5100182B2A /* HomeController.swift in Sources */,
+				4B731F8C2A00178B00182B2A /* Utility.swift in Sources */,
+				4B731F922A00314700182B2A /* UpdateController.swift in Sources */,
+				4B731F7B2A000D4F00182B2A /* MCheMiCal.xcdatamodeld in Sources */,
+				4B731F942A00399900182B2A /* MiCheMiCalTableViewCell.swift in Sources */,
+				4B731F712A000D4F00182B2A /* AppDelegate.swift in Sources */,
+				4B731F732A000D4F00182B2A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B731F762A000D4F00182B2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B731F772A000D4F00182B2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B731F7E2A000D5000182B2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B731F7F2A000D5000182B2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B731F822A000D5000182B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B731F832A000D5000182B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B731F852A000D5000182B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = MCheMiCal/Assets.xcassets;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MCheMiCal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.bluejack22-2.MCheMiCal.MCheMiCal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B731F862A000D5000182B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = MCheMiCal/Assets.xcassets;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MCheMiCal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.bluejack22-2.MCheMiCal.MCheMiCal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B731F682A000D4F00182B2A /* Build configuration list for PBXProject "MCheMiCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B731F822A000D5000182B2A /* Debug */,
+				4B731F832A000D5000182B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B731F842A000D5000182B2A /* Build configuration list for PBXNativeTarget "MCheMiCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B731F852A000D5000182B2A /* Debug */,
+				4B731F862A000D5000182B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B731F792A000D4F00182B2A /* MCheMiCal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B731F7A2A000D4F00182B2A /* MCheMiCal.xcdatamodel */,
+			);
+			currentVersion = 4B731F7A2A000D4F00182B2A /* MCheMiCal.xcdatamodel */;
+			path = MCheMiCal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4B731F652A000D4F00182B2A /* Project object */;
+}
