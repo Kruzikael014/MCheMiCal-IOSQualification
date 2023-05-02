@@ -1,0 +1,31 @@
+-	View / Page / View Controller (at least 5) V (Ada login, register, home, insert, update page)
+
+-	You must use Auto Layout for your UI! V
+(ada pakai auto layout)
+
+-	TableView (at least 1) V
+(ada tableview)
+
+-	Use at least 5 components (Image, Button, Textfield, Segmented Control, Switch, etc) 
+(ada label, textField, button, datepicker, imageview) V
+
+-	Each view/page must have a transition between view/page using segues (auto or custom) V
+(ada redirect tiap page dan transition normal)
+
+-	Use at least 3 kinds of form validations V
+(form validation lebih dari 3, krn ada 2 form, form insert chem, sama form register)
+
+-	Use at least 2 kinds of calculation for the data (string manipulation or arithmetic operations)
+(ada 2, 1 concat string with $ and /pound (string manipulation) dan price * 50% karena harus store uang ke bos cartel (arithmetic operation))
+
+-	Customize your UI (font color, font family, background, dll) V
+(ada tapi ttp jelek krn sense of art lecet)
+
+-	Create 1 logo for your application and put in the xcassets V
+(ada logo MCheMiCal, potion warna ijo, dan udah ada di XCassets dan sempet dipake utk image view)
+
+-	Use CoreData for CRUD (Create, Read, Update, Delete) V
+(ada CRUD chemical + CR account pakai core data)
+
+-	Application idea must be unique V
+(Unique)
